@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
   return (
     <div id="footer">
-      <h4>Contact Me:</h4>
-      <p>oliviahartwig @ gmail .com</p>
+      <h4>oliviahartwig @ gmail . com</h4>
+      <p>Copyright Olivia Hartwig 2021</p>
     </div>
   )
 }

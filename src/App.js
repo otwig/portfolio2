@@ -1,3 +1,4 @@
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,6 +9,8 @@ import Maker from './comps/Maker.js';
 import Educator from './comps/Educator.js';
 import Button from './comps/Button.js'
 import Bio from './comps/Bio.js'
+import Burger from './unusedComps/Burger.js'
+import Projects from './comps/Projects.js'
 
 function App() {
   return (
@@ -19,12 +22,12 @@ function App() {
           <Maker />
           <Educator />
         </div>
-
         <div id="block"><br /><br /></div>
 
       </div>
       <Bio />
       <Button />
+      <Projects />
       <Footer />
     </div>
   );

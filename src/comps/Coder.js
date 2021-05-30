@@ -13,10 +13,11 @@ export default function Coder() {
         <li>Node.js</li>
         <li>Bootstrap</li>
         <li>GitHub</li>
-        <li>Heroku</li>
-        <li>Postman</li>
-        <li>C# - novice</li>
-        <li>Angular - novice</li>
+        <li>SQL + NoSQL</li>
+        <li>APIs</li>
+        <li>C# - new</li>
+        <li>TypeScript - new</li>
+        <li>Angular - new</li>
       </ul>
     </div>
   )

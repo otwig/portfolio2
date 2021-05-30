@@ -6,6 +6,16 @@
   text-align: center;
   font-family: "Roboto Mono";
 }
+
+/* *********************BURGER******************* */
+#burgerButton {
+  background-color: #3aafa9;
+  box-shadow: #def2f1 5px 5px;
+  width: 20px;
+  float: right;
+  margin: 10px 10px 0px 0px;
+}
+
 /* *********************HEADER******************* */
 
 #header {
@@ -26,7 +36,7 @@
 }
 
 img {
-  width: 20vw;
+  width: 25vw;
 }
 
 /* *********************STACKS******************* */
@@ -37,12 +47,16 @@ img {
   position: relative;
   z-index: 1;
   animation-name: rise;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @keyframes rise {
-  0% {top:75vh}
-  100% {top: 0vh}
+  0% {
+    top: 50vh;
+  }
+  100% {
+    top: 0vh;
+  }
 }
 
 #stacks h3 {
@@ -79,7 +93,7 @@ li {
   align-self: center;
   position: absolute;
   z-index: 0;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 #stacksContainer {
@@ -105,7 +119,7 @@ li {
 
 /* *********************BUTTONS ******************* */
 
-#button {
+#buttons {
   display: flex;
   justify-content: space-around;
   background-color: #def2f1;
@@ -115,7 +129,7 @@ li {
   padding-bottom: 50px;
 }
 
-button {
+.button {
   background-color: black;
   color: white;
   border: none;
@@ -123,16 +137,37 @@ button {
   padding: 10px 15px;
   font-family: "Roboto Mono";
   box-shadow: rgba(58, 175, 169, 1) 7px 7px;
+  text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   box-shadow: black 7px 7px;
   background-color: rgba(58, 175, 169, 1);
   color: black;
 }
 
-button:active {
+.button:active {
   transform: translateY(5px);
+}
+
+/* *********************PROJECTS******************* */
+#projects {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+#projects img {
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.8) 0px 9px 15px -1px, rgba(0, 0, 0, 0.8) 0px 1px 3px -1px;
+}
+
+#projects img:hover{
+  transform: scale(1.1);
 }
 
 /* *********************FOOTER******************* */
@@ -150,4 +185,9 @@ button:active {
   background-color: #3aafa9;
   padding: 3px 15px;
   margin-bottom: 0;
+}
+
+#footer p {
+  font-weight: 300;
+  font-size: 9pt;
 }

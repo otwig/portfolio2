@@ -5,12 +5,13 @@ export default function Maker() {
     <div id="maker" className="stack">
       <h3>Maker:</h3>
       <ul>
+        <li>Community</li>
+        <li>Websites</li>
         <li>Ceramics</li>
-        <li>Chemistry</li> 
+        <li>Chemistry</li>
         <li>Polyhedral dice</li>
         <li>Mandolin</li>
-        <li>Websites</li>
-        <li>Community</li>
+        
 
       </ul>
     </div>
