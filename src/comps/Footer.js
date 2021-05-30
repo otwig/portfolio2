@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div id="footer">
-      <h5>Contact Me:</h5>
+      <h4>Contact Me:</h4>
       <p>oliviahartwig @ gmail .com</p>
     </div>
   )
